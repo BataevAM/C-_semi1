@@ -1,6 +1,8 @@
-﻿Console.WriteLine("Введите два числа: ");
-int na = Convert.ToInt32(Console.ReadLine()), 
-    nb = Convert.ToInt32(Console.ReadLine());
+﻿Console.WriteLine("Введите два числа");
+Console.WriteLine("Первое число: ");
+int na = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Второе число: ");
+int nb = Convert.ToInt32(Console.ReadLine());
 
 if (na > nb)
 {
